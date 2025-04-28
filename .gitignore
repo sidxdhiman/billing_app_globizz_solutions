@@ -1,0 +1,16 @@
+# PyInstaller build and distribution folders
+/build
+/dist
+
+# Python bytecode and cache directories
+__pycache__/
+*.pyc
+*.pyo
+
+# Other common Python artifacts
+*.egg-info
+.pytest_cache/
+.coverage
+*.log
+*.swp
+*.swo
