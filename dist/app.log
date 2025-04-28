@@ -1,0 +1,74 @@
+2025-04-28 19:20:58,061 - INFO - billing_app - fetch_inventory - 51 - Fetching inventory.
+2025-04-28 19:20:58,062 - WARNING - billing_app - fetch_inventory - 59 - Inventory file not found.
+2025-04-28 19:20:58,062 - INFO - billing_app - init_ui - 126 - Initializing BillingApp UI.
+2025-04-28 19:20:58,063 - INFO - billing_app - update_inventory_combobox - 196 - Updating inventory combobox.
+2025-04-28 19:20:58,063 - INFO - billing_app - update_inventory_combobox - 200 - Inventory combobox updated.
+2025-04-28 19:20:58,422 - INFO - billing_app - init_ui - 193 - BillingApp UI initialized.
+2025-04-28 19:20:58,422 - INFO - billing_app - __init__ - 123 - BillingApp initialized.
+2025-04-28 19:21:02,343 - INFO - billing_app - open_add_product_dialog - 241 - Opening Add New Product dialog.
+2025-04-28 19:21:02,343 - INFO - billing_app - init_ui - 82 - Initializing AddProductDialog UI.
+2025-04-28 19:21:02,344 - INFO - billing_app - init_ui - 98 - AddProductDialog UI initialized.
+2025-04-28 19:21:02,344 - INFO - billing_app - __init__ - 79 - AddProductDialog initialized.
+2025-04-28 19:21:13,782 - INFO - billing_app - add_product - 101 - Add product button clicked in AddProductDialog.
+2025-04-28 19:21:13,782 - INFO - billing_app - add_product - 66 - Adding product: Name='UPS_NEW', Price='5000.0', Material Code='URWIB'
+2025-04-28 19:21:13,782 - INFO - billing_app - load_inventory_from_json - 27 - Loading inventory from JSON file.
+2025-04-28 19:21:13,782 - INFO - billing_app - load_inventory_from_json - 38 - Inventory file inventory.json not found. Returning empty inventory.
+2025-04-28 19:21:13,782 - INFO - billing_app - save_inventory_to_json - 42 - Saving inventory to JSON file: [{'name': 'UPS_NEW', 'price': 5000.0, 'material_code': 'URWIB'}]
+2025-04-28 19:21:13,783 - INFO - billing_app - save_inventory_to_json - 46 - Inventory saved successfully.
+2025-04-28 19:21:13,783 - INFO - billing_app - add_product - 70 - Product added successfully.
+2025-04-28 19:21:13,785 - INFO - billing_app - add_product - 109 - Product 'UPS_NEW' with price 5000.0 and code 'URWIB' added.
+2025-04-28 19:21:13,786 - INFO - billing_app - open_add_product_dialog - 244 - Add New Product dialog accepted. Reloading inventory.
+2025-04-28 19:21:13,786 - INFO - billing_app - fetch_inventory - 51 - Fetching inventory.
+2025-04-28 19:21:13,786 - INFO - billing_app - fetch_inventory - 56 - Inventory fetched: [('UPS_NEW', 5000.0, 'URWIB')]
+2025-04-28 19:21:13,787 - INFO - billing_app - update_inventory_combobox - 196 - Updating inventory combobox.
+2025-04-28 19:21:13,787 - INFO - billing_app - update_inventory_combobox - 200 - Inventory combobox updated.
+2025-04-28 19:21:15,175 - INFO - billing_app - add_to_cart - 203 - Add item to cart button clicked.
+2025-04-28 19:21:15,175 - INFO - billing_app - update_total - 238 - Cart total updated: \u20b95900.00
+2025-04-28 19:21:15,175 - INFO - billing_app - add_to_cart - 227 - Item 'UPS_NEW' added to cart. Qty: 1, Price: 5000.0, GST: 18%, Total: 5900.0
+2025-04-28 19:21:17,180 - INFO - billing_app - generate_bill - 251 - Generate Bill button clicked.
+2025-04-28 19:21:17,180 - INFO - billing_app - generate_bill - 268 - Attempting to save bill to: C:\Users\sidha\AppData\Local\Temp\_MEI142082\orders\bill_ORD-1745848277.pdf, Order No: ORD-1745848277
+2025-04-28 19:21:17,181 - INFO - billing_app - generate_pdf - 274 - Starting generate_pdf for filepath: C:\Users\sidha\AppData\Local\Temp\_MEI142082\orders\bill_ORD-1745848277.pdf, order_number: ORD-1745848277
+2025-04-28 19:22:16,178 - INFO - billing_app - fetch_inventory - 51 - Fetching inventory.
+2025-04-28 19:22:16,178 - INFO - billing_app - fetch_inventory - 56 - Inventory fetched: [('UPS_NEW', 5000.0, 'URWIB')]
+2025-04-28 19:22:16,178 - INFO - billing_app - init_ui - 126 - Initializing BillingApp UI.
+2025-04-28 19:22:16,179 - INFO - billing_app - update_inventory_combobox - 196 - Updating inventory combobox.
+2025-04-28 19:22:16,180 - INFO - billing_app - update_inventory_combobox - 200 - Inventory combobox updated.
+2025-04-28 19:22:16,549 - INFO - billing_app - init_ui - 193 - BillingApp UI initialized.
+2025-04-28 19:22:16,549 - INFO - billing_app - __init__ - 123 - BillingApp initialized.
+2025-04-28 19:22:19,909 - INFO - billing_app - generate_bill - 251 - Generate Bill button clicked.
+2025-04-28 19:22:21,530 - WARNING - billing_app - generate_bill - 254 - Generate Bill clicked with an empty cart.
+2025-04-28 19:22:22,679 - INFO - billing_app - add_to_cart - 203 - Add item to cart button clicked.
+2025-04-28 19:22:22,679 - INFO - billing_app - update_total - 238 - Cart total updated: \u20b95900.00
+2025-04-28 19:22:22,679 - INFO - billing_app - add_to_cart - 227 - Item 'UPS_NEW' added to cart. Qty: 1, Price: 5000.0, GST: 18%, Total: 5900.0
+2025-04-28 19:22:24,374 - INFO - billing_app - generate_bill - 251 - Generate Bill button clicked.
+2025-04-28 19:22:24,375 - INFO - billing_app - generate_bill - 268 - Attempting to save bill to: C:\Users\sidha\AppData\Local\Temp\_MEI132642\orders\bill_ORD-1745848344.pdf, Order No: ORD-1745848344
+2025-04-28 19:22:24,375 - INFO - billing_app - generate_pdf - 274 - Starting generate_pdf for filepath: C:\Users\sidha\AppData\Local\Temp\_MEI132642\orders\bill_ORD-1745848344.pdf, order_number: ORD-1745848344
+2025-04-28 19:22:24,379 - INFO - billing_app - generate_pdf - 316 - PDF document for Order No: ORD-1745848344 built successfully at: C:\Users\sidha\AppData\Local\Temp\_MEI132642\orders\bill_ORD-1745848344.pdf
+2025-04-28 19:22:24,380 - INFO - billing_app - generate_bill - 270 - PDF generation for Order No: ORD-1745848344 completed successfully and saved to: C:\Users\sidha\AppData\Local\Temp\_MEI132642\orders\bill_ORD-1745848344.pdf
+2025-04-28 19:24:06,763 - INFO - billing_app - main - 328 - Application exited with code: 0
+2025-04-28 19:26:49,905 - INFO - billing_app - fetch_inventory - 50 - Fetching inventory.
+2025-04-28 19:26:49,906 - INFO - billing_app - fetch_inventory - 55 - Inventory fetched: [('UPS_NEW', 5000.0, 'URWIB')]
+2025-04-28 19:26:49,906 - INFO - billing_app - init_ui - 125 - Initializing BillingApp UI.
+2025-04-28 19:26:49,907 - INFO - billing_app - update_inventory_combobox - 195 - Updating inventory combobox.
+2025-04-28 19:26:49,907 - INFO - billing_app - update_inventory_combobox - 199 - Inventory combobox updated.
+2025-04-28 19:26:50,251 - INFO - billing_app - init_ui - 192 - BillingApp UI initialized.
+2025-04-28 19:26:50,251 - INFO - billing_app - __init__ - 122 - BillingApp initialized.
+2025-04-28 19:26:52,388 - INFO - billing_app - add_to_cart - 202 - Add item to cart button clicked.
+2025-04-28 19:26:52,388 - INFO - billing_app - update_total - 237 - Cart total updated: \u20b95900.00
+2025-04-28 19:26:52,388 - INFO - billing_app - add_to_cart - 226 - Item 'UPS_NEW' added to cart. Qty: 1, Price: 5000.0, GST: 18%, Total: 5900.0
+2025-04-28 19:26:53,813 - INFO - billing_app - generate_bill - 250 - Generate Bill button clicked.
+2025-04-28 19:26:53,814 - INFO - billing_app - generate_bill - 267 - Attempting to save bill to: C:\Users\sidha/Documents\globizz_billing_orders\bill_ORD-1745848613.pdf, Order No: ORD-1745848613
+2025-04-28 19:26:53,814 - INFO - billing_app - generate_pdf - 273 - Starting generate_pdf for filepath: C:\Users\sidha/Documents\globizz_billing_orders\bill_ORD-1745848613.pdf, order_number: ORD-1745848613
+2025-04-28 19:26:53,818 - INFO - billing_app - generate_pdf - 313 - PDF document for Order No: ORD-1745848613 built successfully at: C:\Users\sidha/Documents\globizz_billing_orders\bill_ORD-1745848613.pdf
+2025-04-28 19:26:53,818 - INFO - billing_app - generate_bill - 269 - PDF generation for Order No: ORD-1745848613 completed successfully and saved to: C:\Users\sidha/Documents\globizz_billing_orders\bill_ORD-1745848613.pdf
+2025-04-28 19:27:27,470 - INFO - billing_app - generate_bill - 250 - Generate Bill button clicked.
+2025-04-28 19:27:27,470 - INFO - billing_app - generate_bill - 267 - Attempting to save bill to: C:\Users\sidha/Documents\globizz_billing_orders\bill_ORD-1745848647.pdf, Order No: ORD-1745848647
+2025-04-28 19:27:27,470 - INFO - billing_app - generate_pdf - 273 - Starting generate_pdf for filepath: C:\Users\sidha/Documents\globizz_billing_orders\bill_ORD-1745848647.pdf, order_number: ORD-1745848647
+2025-04-28 19:27:27,474 - INFO - billing_app - generate_pdf - 313 - PDF document for Order No: ORD-1745848647 built successfully at: C:\Users\sidha/Documents\globizz_billing_orders\bill_ORD-1745848647.pdf
+2025-04-28 19:27:27,474 - INFO - billing_app - generate_bill - 269 - PDF generation for Order No: ORD-1745848647 completed successfully and saved to: C:\Users\sidha/Documents\globizz_billing_orders\bill_ORD-1745848647.pdf
+2025-04-28 19:28:07,703 - INFO - billing_app - generate_bill - 250 - Generate Bill button clicked.
+2025-04-28 19:28:07,703 - INFO - billing_app - generate_bill - 267 - Attempting to save bill to: C:\Users\sidha/Documents\globizz_billing_orders\bill_ORD-1745848687.pdf, Order No: ORD-1745848687
+2025-04-28 19:28:07,703 - INFO - billing_app - generate_pdf - 273 - Starting generate_pdf for filepath: C:\Users\sidha/Documents\globizz_billing_orders\bill_ORD-1745848687.pdf, order_number: ORD-1745848687
+2025-04-28 19:28:07,707 - INFO - billing_app - generate_pdf - 313 - PDF document for Order No: ORD-1745848687 built successfully at: C:\Users\sidha/Documents\globizz_billing_orders\bill_ORD-1745848687.pdf
+2025-04-28 19:28:07,707 - INFO - billing_app - generate_bill - 269 - PDF generation for Order No: ORD-1745848687 completed successfully and saved to: C:\Users\sidha/Documents\globizz_billing_orders\bill_ORD-1745848687.pdf
+2025-04-28 19:28:42,691 - INFO - billing_app - main - 325 - Application exited with code: 0
