@@ -1,0 +1,17 @@
+[
+    {
+        "name": "UPS",
+        "price": 50000.0,
+        "material_code": "EUHBFEHBF"
+    },
+    {
+        "name": "Generator",
+        "price": 700000.0,
+        "material_code": "GRGSG"
+    },
+    {
+        "name": "test-2",
+        "price": 3000.0,
+        "material_code": "235tsfsd"
+    }
+]
